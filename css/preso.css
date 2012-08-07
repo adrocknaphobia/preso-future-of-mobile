@@ -1,0 +1,175 @@
+.reveal h3
+{
+    color: rgb(0, 180, 255);
+}
+
+.author
+{
+    font-size: .5em;
+    line-height: 1em;
+}
+
+.author h3
+{
+    font-size: 2em;
+}
+
+.background
+{
+    background-color: rgba(0, 0, 0, .8);
+    line-heght: 1.2em;
+}
+
+.pinkbackground
+{
+    background-color: hotpink;
+    line-heght: 1.2em;
+    padding: 0 .2em;
+}
+
+.dark
+{
+    color: rgba(85,85, 100, 1);
+    font-weight: 800;
+}
+
+blockquote em
+{
+    color: hotpink;
+}
+
+cite
+{
+    line-height: 1.5em;
+}
+
+li.good
+{
+    color: dodgerblue;
+}
+
+li.bad
+{
+    color: hotpink;
+}
+
+.no
+{
+    text-decoration: line-through;
+}
+
+#gates
+{
+    background-image: url('../assets/bill-gates-teenbeat.jpg');
+    height: 700px;
+    background-repeat:no-repeat;
+    background-position: top center;
+}
+
+#bride
+{
+    background-image: url('../assets/texting-bride.png');
+    height: 700px;
+    background-repeat:no-repeat;
+    background-position: top center;
+}
+
+
+/****************************
+
+BACKGROUNDS
+
+****************************/
+.space .state-background {
+    background: rgba( 36, 36, 36, 1 );
+    background-image: url('../assets/background/blue-burst-background.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+
+}
+
+.baby .state-background {
+    background: rgba( 36, 36, 36, 1 );
+    background-image: url('../assets/background/iphone-baby.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: 100% 100%
+
+}
+
+.unicorns .state-background {
+    background: rgba( 181, 206, 228, 1 );
+    background-image: url('../assets/background/unicorns-browsers.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: 100% 100%
+}
+
+.scrooge .state-background {
+    background: rgba( 36, 36, 36, 1 );
+    background-image: url('../assets/background/scrooge-mcduck.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: 100% 100%
+
+}
+
+.wolf .state-background {
+    background: rgba( 254, 193, 27, 1 );
+    background-image: url('../assets/background/courage-wolf.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: 100% 100%
+
+}
+
+.shadow .state-background {
+    background: rgba( 114, 96, 78, 1 );
+    background-image: url('../assets/background/adobe-shadow.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: 100% 100%
+
+}
+
+.phonegapbuild .state-background {
+    background: rgba( 36, 36, 36, 1 );
+    background-image: url('../assets/phonegap-lab.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+/****************************
+
+LAYOUT
+
+****************************/
+.bl
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.br
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.tl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tr
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

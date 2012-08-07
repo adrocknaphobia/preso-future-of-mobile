@@ -1,0 +1,380 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>The Future of the Mobile Web</title>
+    <meta name="description" content="The Future of the Mobile Web: Developer Options" />
+    <meta name="author" content="Adam Lehman : Adobe Sr. Product Manager" />
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/preso.css" type="text/css">
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+    
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    
+</head>
+    
+<body>
+
+<div class="reveal">
+
+    <!-- Used to fade in a background when a specific slide state is reached -->
+    <div class="state-background"></div>
+    
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+    <section>
+        <h1>The Future of the Mobile Web</h1>
+        <h3>(for developers)</h3>
+        <div class="author bl">
+            <img src="assets/adrock-avatar.png" width="75" height="75" style="float:left">
+            <div style="float:right;">
+                <h3>Adam Lehman</h3>
+                Sr. Product Manager, Adobe<br>
+                <a href="http://mailto:adrock@adobe.com">adrock@adobe.com</a> - <a href="https://twitter.com/#!/adrocknaphobia">@Adrocknaphobia</a><br>
+            </div>
+        </div>
+        <div class="author br">
+            Inspired By:<br>
+            <img src="assets/lukew-avatar.png" width="75" height="75" style="float:left">
+            <div style="float:right;">
+                <h3>Luke Wrobleski</h3>
+                <a href="http://lukew.com">http://LukeW.com</a><br>
+                <a href="https://twitter.com/#!/LukeW">@LukeW</a>
+            </div>
+        </div>
+    </section>
+        
+    <section>
+        <h1>What is a PC?</h1>
+    </section>
+        
+    <section>
+        <div id="gates">
+            <blockquote>A personal computer is the computer you <em>use at home</em>.</blockquote>
+        </div>
+    </section>
+        
+    <section>
+        <div id="bride">
+            <blockquote>A personal computer is the computer you <em>always have with you</em>.</blockquote>
+        </div>
+    </section>
+        
+    <section>
+        <h2>Mobile is the new personal computer.</h2>
+        <ul class="bl" style="bottom: 15%">
+            <li class="fragment">Always with you.</li>
+            <li class="fragment">Always on.</li>
+            <li class="fragment">Built-in payment.</li>
+            <li class="fragment">Captures the social context.</li>
+            <li class="fragment">Augmented reality.</li>
+            <li class="fragment">Digital interface to reality.</li>
+        </ul>
+    </section>
+    
+    <section data-state="baby">
+        <h2 style="bottom: 15%;" class="bl"><span class="background">There are now more iPhones sold than babies born in the world every day!</span></h2>
+        <cite class="br background">Source: <a href="http://tnw.co/MXSjqz" target="_new">The Next Web</a></cite>
+    </section>
+        
+    <section>
+        <div><img src="assets/baby-zelda.png" width="100" style="float:left"><br><div style="height:150px;">371k Babies</div></div>
+        <div><img src="assets/apple-logo.png" width="100" style="float:left"><br><div style="height:150px;">378k iPhones</div></div>
+        <div class="fragment"><img src="assets/apple-logo.png" width="100" style="float:left"><br><div style="height:150px;">562k iOS Devices</div></div>
+        <div class="fragment"><img src="assets/android-logo.png" width="100" style="float:left"><br><div style="height:150px;">700k Android Devices</div></div>
+        <cite class="br background">Source: <a href="http://tnw.co/MXSjqz" target="_new">The Next Web</a></cite>
+    </section>
+        
+    <section data-state="scrooge">
+        <h2 class="background">The Money</h2>
+        <div class="background">Mobile payment made through PayPal</div>
+        <ul class="bl background fragment">
+            <li class="fragment">2009 - $141 Million</li>
+            <li class="fragment" style="font-size:1.2em;">2010 - $750 Million</li>
+            <li class="fragment" style="font-size:1.5em;">2011 - $4 Billion</li>
+        </ul>
+        <cite class="br background">Source: <a href="http://bit.ly/OEqGBx" target="_new">Ventrue Beat</a></cite>
+    </section>
+        
+    <section>
+        <h1>Developing For The Mobile Web</h1>
+        <div class="tl" style="top:50%;">
+            <h3 class="fragment">Take what we know from desktop web development.</h3>
+            <h3 class="fragment">Optimize for smaller screens and touch interfaces.</h3>
+            <h2 class="fragment">Invent the future!</h2>
+        </div>
+    </section>
+        
+    <section>
+        <h1>Mobile Development Options</h1><br>
+        <div style="float:left">
+            <h2>Browser</h2>
+            <ul>
+                <li class="fragment">What We Know</li>
+                <li class="fragment">Open Standards</li>
+                <li class="fragment">The "Content" Runtime</li>
+                <li class="fragment">On Every Device</li>
+                <li class="fragment bad">Limited Functionality</li>
+            </ul>
+        </div>
+        <div style="float:right;">
+            <h2>Native</h2>
+            <ul>
+                <li class="fragment">Full Access to the Device</li>
+                <li class="fragment">High Performance</li>
+                <li class="fragment">App Stores</li>
+                <li class="fragment bad">Propreitary</li>
+                <li class="fragment bad">Expensive Dev Costs</li>
+            </ul>
+        </div>
+    </section>
+        
+    <section>
+        <h1>Choose The Best Fit</h1>
+        <h3>(based on your project)</h3><br>
+        <div style="float:left">
+            <h2>Browser</h2>
+            <ul>
+                <li class="fragment">Reach</li>
+                <li class="fragment">Low Barrier To Adoption</li>
+                <li class="fragment">Subscriptions / Services</li>
+            </ul>
+        </div>
+        <div style="float:right;">
+            <h2>Native</h2>
+            <ul>
+                <li class="fragment">High Performance</li>
+                <li class="fragment">Device APIs</li>
+                <li class="fragment">App Stores</li>
+            </ul>
+        </div>
+    </section>
+        
+    <section data-state="unicorns">
+        <h1 class="tr">The Browser Is Capable!</h1>
+        <ul class="bl dark" style="bottom:150px;list-style-position:outside;">
+            <li class="fragment"><span class="pinkbackground">JavaScript Coming of Age</span></li>
+            <li class="fragment"><span class="pinkbackground">Awesome HTML5 and CSS3 Support</span></li>
+            <li class="fragment"><span class="pinkbackground">Some Device APIs</span></li>
+            <li class="fragment"><span class="pinkbackground">There are more JavaScript frameworks released each day than babies born in the world!</span></li>
+        </ul>
+    </section>
+        
+    <section data-state="wolf">
+        <h1 class="center">Mobile Browser Development Is Hard!</h1>
+        <ul class="bl dark">
+            <li class="fragment">Have to deploy stuff</li>
+            <li class="fragment">No desktop browser tools</li>
+            <li class="fragment">Debugging is really tough</li>
+        </ul>
+    </section>
+        
+    <section>
+        <h1>Adobe Shadow</h1>
+        <h3>Syncronized browsing and device inspection</h3>
+        <ul>
+            <li>Supports in-browser mobile development</li>
+            <li>Enables syncronous browsing, on desktop and devices</li>
+            <li>Remote inspection and debugging</li>
+            <li>Screenshots</li>
+        </ul>
+        <h3>Platform Support</h3>
+        <ul>
+            <li>OSX and Windows</li>
+            <li>Google Chrome Browser Extension</li>
+            <li>iOS and Android</li>
+        </ul>
+        <a href="http://www.adobe.com/Shadow" target="_new"><img src="assets/AdobeShadow.png" class="br" /></a>
+    </section>
+        
+    <section data-state="shadow">
+        <h1><span class="pinkbackground">Adobe Shadow Demo!</span></h1>
+    </section>
+        
+    <section>
+        <h1>Choose The Best Fit</h1>
+        <h3>(based on your project)</h3><br>
+        <div style="float:left">
+            <h2>Browser</h2>
+            <ul>
+                <li>Reach</li>
+                <li>Low Barrier To Adoption</li>
+                <li>Subscriptions / Services</li>
+            </ul>
+        </div>
+        <div style="float:right;">
+            <h2>Native</h2>
+            <ul>
+                <li>High Performance</li>
+                <li>Device APIs</li>
+                <li>App Stores</li>
+            </ul>
+        </div>
+    </section>
+        
+    <section>
+        <h1>Mobile Development Options</h1><br>
+        <div style="float:left">
+            <h2>Browser</h2>
+            <ul>
+                <li>What We Know</li>
+                <li>Open Standards</li>
+                <li>The "Content" Runtime</li>
+                <li>On Every Device</li>
+                <li class="no bad">Limited Functionality</li>
+            </ul>
+        </div>
+        <div style="float:right;">
+            <h2>Native</h2>
+            <ul>
+                <li>Full Access to the Device</li>
+                <li>High Performance</li>
+                <li>App Stores</li>
+                <li class="no bad">Propreitary</li>
+                <li class="no bad">Expensive Dev Costs</li>
+            </ul>
+        </div>
+        <h3 class="fragment bl">If only there was some way to bridge this browser to native phone gap!</h3>
+    </section>
+        
+    <section>
+        <h1>Enter PhoneGap</h1>
+        <h3>An open source framework for building native mobile applications with web standards.</h3>
+        <img src="assets/phonegap-flow.png" class="bl" />
+    </section>
+        
+    <section>
+        <h1>Unrivaled Platform Support</h1>
+        <img src="assets/phonegap-platforms.png" style="width:80%;bottom:25px;" />
+    </section>
+        
+    <section>
+        <h1>How PhoneGap Works</h1><br>
+        <div class="fragment"><img src="assets/phonegap-html5.png" width="100" style="float:left;padding-right:1em;"> <div style="height:200px;"><h4>User Interface</h4>HTML, CSS &amp; JavaScript</div></div>
+        <div class="fragment"><img src="assets/phonegap-javascript.png" width="100" style="float:left;padding-right:1em;"> <div style="height:200px;"><h4>Application Logic</h4>JavaScript</div></div>
+        <div class="fragment"><img src="assets/phonegap-devices.png" width="100" style="float:left;padding-right:1em;"> <div style="height:200px;"><h4>Device Functionality</h4>JavaScript PhoneGap API</div></div>
+    </section>
+        
+    <section>
+        <h1>Leverage The Web!</h1>
+        <img src="assets/phonegap-ecosystem.png" style="width:90%;" />
+    </section>
+        
+    <section>
+        <h1>In Good Company...</h1>
+        <img src="assets/phonegap-apps.png" style="width:90%;" />
+    </section>
+        
+    <section>
+        <h1>PhoneGap Build</h1>
+        <h3>Automated multiplatform compilation in the cloud</h3>
+        <ul>
+            <li>No SDKs required</li>
+            <li>No platform specific tools required</li>
+        </ul>
+        <img src="assets/phonegap-build-flow.png" style="width:90%;" class="br" />
+    </section>
+        
+    <section data-state="phonegapbuild">
+        <h1><span class="pinkbackground">PhoneGap Demo!</span></h1>
+    </section>
+
+    <section>
+        <h1>Thanks!</h1>
+        <img src="assets/thumbs-up-chuck.gif"/>
+        <div class="bl">
+            <h3>Adam Lehman</h3>
+            <p>Email: <a href="mailto:adrock@adobe.com">adrock@adobe.com</a></p>
+            <p>Twitter: <a href="http://www.twitter.com/adrocknaphobia">@Adrocknaphobia</a></p>
+            <p>G+: <a href="http://gplus.to/adrock">http://gplus.to/adrock</a></p>
+        </div>
+    </section>
+        
+    </div>
+                
+    <!-- The navigational controls UI -->
+    <aside class="controls">
+        <a class="left" href="#">&#x25C4;</a>
+        <a class="right" href="#">&#x25BA;</a>
+        <a class="up" href="#">&#x25B2;</a>
+        <a class="down" href="#">&#x25BC;</a>
+    </aside>
+    
+    <!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+    <div class="progress"><span></span></div>
+    
+</div>
+    
+<!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
+		<script src="lib/js/head.min.js"></script>
+
+		<script>
+			// Load the main reveal.js script
+			head.js( 'js/reveal.js', function() {
+				// Parse the query string into a key/value object
+				var query = {};
+
+				location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+					query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+				} );
+
+				// Fires when a slide with data-state=customevent is activated
+				Reveal.addEventListener( 'customevent', function() {
+					alert( '"customevent" has fired' );
+				} );
+
+				// Fires each time a new slide is activated
+				Reveal.addEventListener( 'slidechanged', function( event ) {
+					// event.previousSlide, event.currentSlide, event.indexh, event.indexv
+				} );
+
+				Reveal.initialize({
+					// Display controls in the bottom right corner
+					controls: true,
+
+					// Display a presentation progress bar
+					progress: true,
+
+					// If true; each slide will be pushed to the browser history
+					history: true,
+
+					// Loops the presentation, defaults to false
+					loop: false,
+
+					// Flags if mouse wheel navigation should be enabled
+					mouseWheel: true,
+
+					// Apply a 3D roll to links on hover
+					rollingLinks: true,
+
+					// UI style
+					theme: query.theme || 'default', // default/neon
+
+					// Transition style
+					transition: query.transition || 'default' // default/cube/page/concave/linear(2d)
+				});
+			} );
+			
+			// Load third party scripts
+			head.js( 'lib/js/classList.js' );
+			head.js( 'lib/js/highlight.js', function() {
+				// Fire off syntax highlighting for potential code samples in the slides
+				hljs.initHighlightingOnLoad();
+			} );
+
+			// If we're runnning the notes server we need to include some additional JS
+			// TODO Is there a better way to determine if we're running the notes server?
+			if( window.location.host === 'localhost:1947' ) {
+				head.js( 'socket.io/socket.io.js', 'plugin/speakernotes/client.js' );
+			}
+		</script>
+    
+</body></html>
